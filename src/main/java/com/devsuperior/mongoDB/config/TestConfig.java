@@ -15,6 +15,8 @@ import java.time.Instant;
 import java.util.Arrays;
 
 
+
+
 @Configuration
 @Profile("test")
 public class TestConfig {
@@ -52,5 +54,4 @@ public class TestConfig {
         maria.getPosts().addAll(Arrays.asList(post1, post2));
         userRepository.save(maria);
     }
-
 }
